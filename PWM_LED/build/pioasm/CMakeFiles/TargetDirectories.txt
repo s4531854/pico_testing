@@ -1,0 +1,3 @@
+/home/cheslea/pico_testing/PWM_LED/build/pioasm/CMakeFiles/pioasm.dir
+/home/cheslea/pico_testing/PWM_LED/build/pioasm/CMakeFiles/edit_cache.dir
+/home/cheslea/pico_testing/PWM_LED/build/pioasm/CMakeFiles/rebuild_cache.dir
