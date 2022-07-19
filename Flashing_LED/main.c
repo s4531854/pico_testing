@@ -3,22 +3,21 @@
 #include "hardware/gpio.h"
 #include "pico/binary_info.h"
 
-int main() {
-    const uint onboardLED = 25;
+#define ONBOARD_LED 25
+//Generalising code
+#define FLASHES_PER_SEC 2 
+#define SLEEP_TIME 1000/(FLASHES_PER_SEC*2)
 
+int main() {
     //Initialise the onboard LED pin
-    gpio_init(onboardLED);
-    gpio_set_dir(onboardLED, GPIO_OUT);
+    gpio_init(ONBOARD_LED);
+    gpio_set_dir(ONBOARD_LED, GPIO_OUT);
 
     while (1) {
-        gpio_put(onboardLED, true);
-        sleep_ms(250);
-        gpio_put(onboardLED, false);
-        sleep_ms(250);
-        gpio_put(onboardLED, true);
-        sleep_ms(250);
-        gpio_put(onboardLED, false);
-        sleep_ms(250);
+        gpio_put(ONBOARD_LED, true);
+        sleep_ms(SLEEP_TIME);
+        gpio_put(ONBOARD_LED, false);
+        sleep_ms(SLEEP_TIME);
     }
     return 0;
 }   

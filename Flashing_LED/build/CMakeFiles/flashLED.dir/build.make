@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cheslea/pico/test
+CMAKE_SOURCE_DIR = /home/cheslea/pico_testing/Flashing_LED
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cheslea/pico/test/build
+CMAKE_BINARY_DIR = /home/cheslea/pico_testing/Flashing_LED/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/flashLED.dir/depend.make
@@ -72,21 +72,21 @@ include CMakeFiles/flashLED.dir/flags.make
 CMakeFiles/flashLED.dir/main.c.obj: CMakeFiles/flashLED.dir/flags.make
 CMakeFiles/flashLED.dir/main.c.obj: ../main.c
 CMakeFiles/flashLED.dir/main.c.obj: CMakeFiles/flashLED.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/flashLED.dir/main.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/flashLED.dir/main.c.obj -MF CMakeFiles/flashLED.dir/main.c.obj.d -o CMakeFiles/flashLED.dir/main.c.obj -c /home/cheslea/pico/test/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico_testing/Flashing_LED/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/flashLED.dir/main.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/flashLED.dir/main.c.obj -MF CMakeFiles/flashLED.dir/main.c.obj.d -o CMakeFiles/flashLED.dir/main.c.obj -c /home/cheslea/pico_testing/Flashing_LED/main.c
 
 CMakeFiles/flashLED.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/flashLED.dir/main.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cheslea/pico/test/main.c > CMakeFiles/flashLED.dir/main.c.i
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cheslea/pico_testing/Flashing_LED/main.c > CMakeFiles/flashLED.dir/main.c.i
 
 CMakeFiles/flashLED.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/flashLED.dir/main.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cheslea/pico/test/main.c -o CMakeFiles/flashLED.dir/main.c.s
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cheslea/pico_testing/Flashing_LED/main.c -o CMakeFiles/flashLED.dir/main.c.s
 
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: CMakeFiles/flashLED.dir/flags.make
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/cheslea/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: CMakeFiles/flashLED.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico_testing/Flashing_LED/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj -MF CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj.d -o CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj -c /home/cheslea/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
 
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i: cmake_force
@@ -100,7 +100,7 @@ CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_stdlib/st
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: CMakeFiles/flashLED.dir/flags.make
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: /home/cheslea/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: CMakeFiles/flashLED.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico_testing/Flashing_LED/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj -MF CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj.d -o CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj -c /home/cheslea/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
 
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i: cmake_force
@@ -114,7 +114,7 @@ CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_gpio/
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: CMakeFiles/flashLED.dir/flags.make
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: /home/cheslea/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: CMakeFiles/flashLED.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico_testing/Flashing_LED/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj -MF CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj.d -o CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj -c /home/cheslea/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c
 
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i: cmake_force
@@ -128,7 +128,7 @@ CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_claim
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: CMakeFiles/flashLED.dir/flags.make
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: /home/cheslea/pico/pico-sdk/src/rp2_common/pico_platform/platform.c
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: CMakeFiles/flashLED.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico_testing/Flashing_LED/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj -MF CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj.d -o CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj -c /home/cheslea/pico/pico-sdk/src/rp2_common/pico_platform/platform.c
 
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i: cmake_force
@@ -142,7 +142,7 @@ CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_platform/
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: CMakeFiles/flashLED.dir/flags.make
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: /home/cheslea/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: CMakeFiles/flashLED.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico_testing/Flashing_LED/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj -MF CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj.d -o CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj -c /home/cheslea/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c
 
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i: cmake_force
@@ -156,7 +156,7 @@ CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_sync/
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: CMakeFiles/flashLED.dir/flags.make
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: /home/cheslea/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: CMakeFiles/flashLED.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico_testing/Flashing_LED/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj -MF CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj.d -o CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj -c /home/cheslea/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
 
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i: cmake_force
@@ -169,7 +169,7 @@ CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_irq/i
 
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: CMakeFiles/flashLED.dir/flags.make
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: /home/cheslea/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building ASM object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico_testing/Flashing_LED/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building ASM object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj   -c /home/cheslea/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
 
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i: cmake_force
@@ -183,7 +183,7 @@ CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_irq/i
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_sync/sem.c.obj: CMakeFiles/flashLED.dir/flags.make
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_sync/sem.c.obj: /home/cheslea/pico/pico-sdk/src/common/pico_sync/sem.c
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_sync/sem.c.obj: CMakeFiles/flashLED.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_sync/sem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico_testing/Flashing_LED/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_sync/sem.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_sync/sem.c.obj -MF CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_sync/sem.c.obj.d -o CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_sync/sem.c.obj -c /home/cheslea/pico/pico-sdk/src/common/pico_sync/sem.c
 
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_sync/sem.c.i: cmake_force
@@ -197,7 +197,7 @@ CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_sync/sem.c.s:
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: CMakeFiles/flashLED.dir/flags.make
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: /home/cheslea/pico/pico-sdk/src/common/pico_sync/lock_core.c
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: CMakeFiles/flashLED.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico_testing/Flashing_LED/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj -MF CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj.d -o CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj -c /home/cheslea/pico/pico-sdk/src/common/pico_sync/lock_core.c
 
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_sync/lock_core.c.i: cmake_force
@@ -211,7 +211,7 @@ CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_sync/lock_cor
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_time/time.c.obj: CMakeFiles/flashLED.dir/flags.make
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_time/time.c.obj: /home/cheslea/pico/pico-sdk/src/common/pico_time/time.c
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_time/time.c.obj: CMakeFiles/flashLED.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_time/time.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico_testing/Flashing_LED/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_time/time.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_time/time.c.obj -MF CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_time/time.c.obj.d -o CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_time/time.c.obj -c /home/cheslea/pico/pico-sdk/src/common/pico_time/time.c
 
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_time/time.c.i: cmake_force
@@ -225,7 +225,7 @@ CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_time/time.c.s
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: CMakeFiles/flashLED.dir/flags.make
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: /home/cheslea/pico/pico-sdk/src/common/pico_time/timeout_helper.c
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: CMakeFiles/flashLED.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico_testing/Flashing_LED/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj -MF CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj.d -o CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj -c /home/cheslea/pico/pico-sdk/src/common/pico_time/timeout_helper.c
 
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i: cmake_force
@@ -239,7 +239,7 @@ CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_time/timeout_
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: CMakeFiles/flashLED.dir/flags.make
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: /home/cheslea/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: CMakeFiles/flashLED.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico_testing/Flashing_LED/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj -MF CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj.d -o CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj -c /home/cheslea/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
 
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i: cmake_force
@@ -253,7 +253,7 @@ CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_timer
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_util/datetime.c.obj: CMakeFiles/flashLED.dir/flags.make
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_util/datetime.c.obj: /home/cheslea/pico/pico-sdk/src/common/pico_util/datetime.c
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_util/datetime.c.obj: CMakeFiles/flashLED.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_util/datetime.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico_testing/Flashing_LED/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_util/datetime.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_util/datetime.c.obj -MF CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_util/datetime.c.obj.d -o CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_util/datetime.c.obj -c /home/cheslea/pico/pico-sdk/src/common/pico_util/datetime.c
 
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_util/datetime.c.i: cmake_force
@@ -267,7 +267,7 @@ CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_util/datetime
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_util/pheap.c.obj: CMakeFiles/flashLED.dir/flags.make
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_util/pheap.c.obj: /home/cheslea/pico/pico-sdk/src/common/pico_util/pheap.c
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_util/pheap.c.obj: CMakeFiles/flashLED.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_util/pheap.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico_testing/Flashing_LED/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_util/pheap.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_util/pheap.c.obj -MF CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_util/pheap.c.obj.d -o CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_util/pheap.c.obj -c /home/cheslea/pico/pico-sdk/src/common/pico_util/pheap.c
 
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_util/pheap.c.i: cmake_force
@@ -281,7 +281,7 @@ CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_util/pheap.c.
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_util/queue.c.obj: CMakeFiles/flashLED.dir/flags.make
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_util/queue.c.obj: /home/cheslea/pico/pico-sdk/src/common/pico_util/queue.c
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_util/queue.c.obj: CMakeFiles/flashLED.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_util/queue.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico_testing/Flashing_LED/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_util/queue.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_util/queue.c.obj -MF CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_util/queue.c.obj.d -o CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_util/queue.c.obj -c /home/cheslea/pico/pico-sdk/src/common/pico_util/queue.c
 
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_util/queue.c.i: cmake_force
@@ -295,7 +295,7 @@ CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_util/queue.c.
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: CMakeFiles/flashLED.dir/flags.make
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: /home/cheslea/pico/pico-sdk/src/common/pico_sync/mutex.c
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: CMakeFiles/flashLED.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_sync/mutex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico_testing/Flashing_LED/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_sync/mutex.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_sync/mutex.c.obj -MF CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_sync/mutex.c.obj.d -o CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_sync/mutex.c.obj -c /home/cheslea/pico/pico-sdk/src/common/pico_sync/mutex.c
 
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_sync/mutex.c.i: cmake_force
@@ -309,7 +309,7 @@ CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_sync/mutex.c.
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: CMakeFiles/flashLED.dir/flags.make
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: /home/cheslea/pico/pico-sdk/src/common/pico_sync/critical_section.c
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: CMakeFiles/flashLED.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico_testing/Flashing_LED/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj -MF CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj.d -o CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj -c /home/cheslea/pico/pico-sdk/src/common/pico_sync/critical_section.c
 
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_sync/critical_section.c.i: cmake_force
@@ -323,7 +323,7 @@ CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_sync/critical
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: CMakeFiles/flashLED.dir/flags.make
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: /home/cheslea/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: CMakeFiles/flashLED.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico_testing/Flashing_LED/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -MF CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj.d -o CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -c /home/cheslea/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
 
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i: cmake_force
@@ -336,7 +336,7 @@ CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_uart/
 
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: CMakeFiles/flashLED.dir/flags.make
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: /home/cheslea/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building ASM object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico_testing/Flashing_LED/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building ASM object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj   -c /home/cheslea/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
 
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.i: cmake_force
@@ -350,7 +350,7 @@ CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_divid
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: CMakeFiles/flashLED.dir/flags.make
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: /home/cheslea/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: CMakeFiles/flashLED.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico_testing/Flashing_LED/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -MF CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj.d -o CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -c /home/cheslea/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
 
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i: cmake_force
@@ -364,7 +364,7 @@ CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_runtime/r
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: CMakeFiles/flashLED.dir/flags.make
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: /home/cheslea/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: CMakeFiles/flashLED.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico_testing/Flashing_LED/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -MF CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj.d -o CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -c /home/cheslea/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
 
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i: cmake_force
@@ -378,7 +378,7 @@ CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_clock
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: CMakeFiles/flashLED.dir/flags.make
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: /home/cheslea/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: CMakeFiles/flashLED.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico_testing/Flashing_LED/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj -MF CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj.d -o CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj -c /home/cheslea/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
 
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i: cmake_force
@@ -392,7 +392,7 @@ CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_pll/p
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: CMakeFiles/flashLED.dir/flags.make
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: /home/cheslea/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: CMakeFiles/flashLED.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico_testing/Flashing_LED/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj -MF CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj.d -o CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj -c /home/cheslea/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
 
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i: cmake_force
@@ -406,7 +406,7 @@ CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_vreg/
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: CMakeFiles/flashLED.dir/flags.make
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: /home/cheslea/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: CMakeFiles/flashLED.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico_testing/Flashing_LED/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj -MF CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj.d -o CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj -c /home/cheslea/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
 
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i: cmake_force
@@ -420,7 +420,7 @@ CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_watch
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: CMakeFiles/flashLED.dir/flags.make
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: /home/cheslea/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: CMakeFiles/flashLED.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico_testing/Flashing_LED/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj -MF CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj.d -o CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj -c /home/cheslea/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
 
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i: cmake_force
@@ -434,7 +434,7 @@ CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_xosc/
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: CMakeFiles/flashLED.dir/flags.make
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: /home/cheslea/pico/pico-sdk/src/rp2_common/pico_printf/printf.c
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: CMakeFiles/flashLED.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico_testing/Flashing_LED/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj -MF CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj.d -o CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj -c /home/cheslea/pico/pico-sdk/src/rp2_common/pico_printf/printf.c
 
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i: cmake_force
@@ -447,7 +447,7 @@ CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_printf/pr
 
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: CMakeFiles/flashLED.dir/flags.make
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: /home/cheslea/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building ASM object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico_testing/Flashing_LED/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building ASM object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj   -c /home/cheslea/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
 
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i: cmake_force
@@ -461,7 +461,7 @@ CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_bit_ops/b
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: CMakeFiles/flashLED.dir/flags.make
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: /home/cheslea/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: CMakeFiles/flashLED.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico_testing/Flashing_LED/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj -MF CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj.d -o CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj -c /home/cheslea/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
 
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i: cmake_force
@@ -474,7 +474,7 @@ CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_bootrom/b
 
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj: CMakeFiles/flashLED.dir/flags.make
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj: /home/cheslea/pico/pico-sdk/src/rp2_common/pico_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building ASM object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico_testing/Flashing_LED/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building ASM object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj   -c /home/cheslea/pico/pico-sdk/src/rp2_common/pico_divider/divider.S
 
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.i: cmake_force
@@ -487,7 +487,7 @@ CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_divider/d
 
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: CMakeFiles/flashLED.dir/flags.make
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: /home/cheslea/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building ASM object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico_testing/Flashing_LED/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building ASM object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj   -c /home/cheslea/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S
 
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.i: cmake_force
@@ -501,7 +501,7 @@ CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_double/do
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: CMakeFiles/flashLED.dir/flags.make
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: /home/cheslea/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: CMakeFiles/flashLED.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico_testing/Flashing_LED/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj -MF CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj.d -o CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj -c /home/cheslea/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
 
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i: cmake_force
@@ -515,7 +515,7 @@ CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_double/do
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: CMakeFiles/flashLED.dir/flags.make
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: /home/cheslea/pico/pico-sdk/src/rp2_common/pico_double/double_math.c
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: CMakeFiles/flashLED.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico_testing/Flashing_LED/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj -MF CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj.d -o CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj -c /home/cheslea/pico/pico-sdk/src/rp2_common/pico_double/double_math.c
 
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i: cmake_force
@@ -528,7 +528,7 @@ CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_double/do
 
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: CMakeFiles/flashLED.dir/flags.make
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: /home/cheslea/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building ASM object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico_testing/Flashing_LED/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building ASM object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj   -c /home/cheslea/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
 
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.i: cmake_force
@@ -541,7 +541,7 @@ CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_double/do
 
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: CMakeFiles/flashLED.dir/flags.make
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: /home/cheslea/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building ASM object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico_testing/Flashing_LED/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building ASM object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj   -c /home/cheslea/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
 
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i: cmake_force
@@ -554,7 +554,7 @@ CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_int64_ops
 
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: CMakeFiles/flashLED.dir/flags.make
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: /home/cheslea/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building ASM object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico_testing/Flashing_LED/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building ASM object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj   -c /home/cheslea/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S
 
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.i: cmake_force
@@ -568,7 +568,7 @@ CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_float/flo
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: CMakeFiles/flashLED.dir/flags.make
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: /home/cheslea/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: CMakeFiles/flashLED.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico_testing/Flashing_LED/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj -MF CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj.d -o CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj -c /home/cheslea/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
 
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i: cmake_force
@@ -582,7 +582,7 @@ CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_float/flo
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: CMakeFiles/flashLED.dir/flags.make
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: /home/cheslea/pico/pico-sdk/src/rp2_common/pico_float/float_math.c
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: CMakeFiles/flashLED.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico_testing/Flashing_LED/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj -MF CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj.d -o CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj -c /home/cheslea/pico/pico-sdk/src/rp2_common/pico_float/float_math.c
 
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i: cmake_force
@@ -595,7 +595,7 @@ CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_float/flo
 
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: CMakeFiles/flashLED.dir/flags.make
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: /home/cheslea/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building ASM object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico_testing/Flashing_LED/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building ASM object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj   -c /home/cheslea/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
 
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.i: cmake_force
@@ -609,7 +609,7 @@ CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_float/flo
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: CMakeFiles/flashLED.dir/flags.make
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: /home/cheslea/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: CMakeFiles/flashLED.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico_testing/Flashing_LED/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj -MF CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj.d -o CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj -c /home/cheslea/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
 
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i: cmake_force
@@ -622,7 +622,7 @@ CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_malloc/pi
 
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: CMakeFiles/flashLED.dir/flags.make
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: /home/cheslea/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building ASM object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico_testing/Flashing_LED/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building ASM object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj   -c /home/cheslea/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
 
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i: cmake_force
@@ -635,7 +635,7 @@ CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_mem_ops/m
 
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: CMakeFiles/flashLED.dir/flags.make
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: /home/cheslea/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building ASM object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico_testing/Flashing_LED/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building ASM object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj   -c /home/cheslea/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S
 
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.i: cmake_force
@@ -649,7 +649,7 @@ CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_standard_
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: CMakeFiles/flashLED.dir/flags.make
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: /home/cheslea/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: CMakeFiles/flashLED.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico_testing/Flashing_LED/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj"
 	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj -MF CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj.d -o CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj -c /home/cheslea/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
 
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i: cmake_force
@@ -663,7 +663,7 @@ CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_standard_
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: CMakeFiles/flashLED.dir/flags.make
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: /home/cheslea/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: CMakeFiles/flashLED.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico_testing/Flashing_LED/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj -MF CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj.d -o CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj -c /home/cheslea/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
 
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i: cmake_force
@@ -677,7 +677,7 @@ CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_standard_
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: CMakeFiles/flashLED.dir/flags.make
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: /home/cheslea/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: CMakeFiles/flashLED.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico_testing/Flashing_LED/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj -MF CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj.d -o CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj -c /home/cheslea/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c
 
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i: cmake_force
@@ -691,7 +691,7 @@ CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_stdio/std
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: CMakeFiles/flashLED.dir/flags.make
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /home/cheslea/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: CMakeFiles/flashLED.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico_testing/Flashing_LED/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj -MF CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj.d -o CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj -c /home/cheslea/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
 
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i: cmake_force
@@ -705,7 +705,7 @@ CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_stdio_uar
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: CMakeFiles/flashLED.dir/flags.make
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: /home/cheslea/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: CMakeFiles/flashLED.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico_testing/Flashing_LED/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj -MF CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj.d -o CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj -c /home/cheslea/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
 
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i: cmake_force
@@ -719,7 +719,7 @@ CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_stdio_usb
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: CMakeFiles/flashLED.dir/flags.make
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: /home/cheslea/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: CMakeFiles/flashLED.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico_testing/Flashing_LED/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj -MF CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj.d -o CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj -c /home/cheslea/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
 
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i: cmake_force
@@ -733,7 +733,7 @@ CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_stdio_usb
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: CMakeFiles/flashLED.dir/flags.make
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: /home/cheslea/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: CMakeFiles/flashLED.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico_testing/Flashing_LED/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj -MF CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj.d -o CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj -c /home/cheslea/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
 
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i: cmake_force
@@ -747,7 +747,7 @@ CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_stdio_usb
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: CMakeFiles/flashLED.dir/flags.make
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: /home/cheslea/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: CMakeFiles/flashLED.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico_testing/Flashing_LED/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj -MF CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj.d -o CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj -c /home/cheslea/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
 
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i: cmake_force
@@ -761,7 +761,7 @@ CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/portable/rasp
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: CMakeFiles/flashLED.dir/flags.make
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: /home/cheslea/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: CMakeFiles/flashLED.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico_testing/Flashing_LED/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj -MF CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj.d -o CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj -c /home/cheslea/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
 
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i: cmake_force
@@ -775,7 +775,7 @@ CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/portable/rasp
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: CMakeFiles/flashLED.dir/flags.make
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: /home/cheslea/pico/pico-sdk/lib/tinyusb/src/device/usbd.c
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: CMakeFiles/flashLED.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico_testing/Flashing_LED/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj -MF CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj.d -o CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj -c /home/cheslea/pico/pico-sdk/lib/tinyusb/src/device/usbd.c
 
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i: cmake_force
@@ -789,7 +789,7 @@ CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/device/usbd.c
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: CMakeFiles/flashLED.dir/flags.make
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: /home/cheslea/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: CMakeFiles/flashLED.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico_testing/Flashing_LED/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj -MF CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj.d -o CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj -c /home/cheslea/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c
 
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i: cmake_force
@@ -803,7 +803,7 @@ CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/device/usbd_c
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: CMakeFiles/flashLED.dir/flags.make
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: /home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: CMakeFiles/flashLED.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico_testing/Flashing_LED/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj -MF CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj.d -o CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj -c /home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
 
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i: cmake_force
@@ -817,7 +817,7 @@ CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/audio/a
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: CMakeFiles/flashLED.dir/flags.make
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: /home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: CMakeFiles/flashLED.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico_testing/Flashing_LED/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj -MF CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj.d -o CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj -c /home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
 
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i: cmake_force
@@ -831,7 +831,7 @@ CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: CMakeFiles/flashLED.dir/flags.make
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: /home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: CMakeFiles/flashLED.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico_testing/Flashing_LED/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj -MF CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj.d -o CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj -c /home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
 
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i: cmake_force
@@ -845,7 +845,7 @@ CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: CMakeFiles/flashLED.dir/flags.make
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: /home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: CMakeFiles/flashLED.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico_testing/Flashing_LED/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj -MF CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj.d -o CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj -c /home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
 
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i: cmake_force
@@ -859,7 +859,7 @@ CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: CMakeFiles/flashLED.dir/flags.make
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: /home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: CMakeFiles/flashLED.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico_testing/Flashing_LED/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj -MF CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj.d -o CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj -c /home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
 
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i: cmake_force
@@ -873,7 +873,7 @@ CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/hid/hid
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: CMakeFiles/flashLED.dir/flags.make
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: /home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: CMakeFiles/flashLED.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico_testing/Flashing_LED/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj -MF CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj.d -o CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj -c /home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
 
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i: cmake_force
@@ -887,7 +887,7 @@ CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/midi/mi
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: CMakeFiles/flashLED.dir/flags.make
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: /home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: CMakeFiles/flashLED.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico_testing/Flashing_LED/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj -MF CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj.d -o CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj -c /home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
 
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i: cmake_force
@@ -901,7 +901,7 @@ CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/msc/msc
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: CMakeFiles/flashLED.dir/flags.make
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: /home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: CMakeFiles/flashLED.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico_testing/Flashing_LED/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj -MF CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj.d -o CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj -c /home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
 
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i: cmake_force
@@ -915,7 +915,7 @@ CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/net/ecm
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: CMakeFiles/flashLED.dir/flags.make
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: /home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: CMakeFiles/flashLED.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico_testing/Flashing_LED/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj -MF CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj.d -o CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj -c /home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
 
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i: cmake_force
@@ -929,7 +929,7 @@ CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/net/ncm
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: CMakeFiles/flashLED.dir/flags.make
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: /home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: CMakeFiles/flashLED.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico_testing/Flashing_LED/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj -MF CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj.d -o CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj -c /home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
 
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i: cmake_force
@@ -943,7 +943,7 @@ CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: CMakeFiles/flashLED.dir/flags.make
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: /home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: CMakeFiles/flashLED.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico_testing/Flashing_LED/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj -MF CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj.d -o CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj -c /home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
 
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i: cmake_force
@@ -957,7 +957,7 @@ CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/vendor/
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: CMakeFiles/flashLED.dir/flags.make
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: /home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: CMakeFiles/flashLED.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico_testing/Flashing_LED/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj -MF CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj.d -o CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj -c /home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c
 
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i: cmake_force
@@ -971,7 +971,7 @@ CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/class/video/v
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj: CMakeFiles/flashLED.dir/flags.make
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj: /home/cheslea/pico/pico-sdk/lib/tinyusb/src/tusb.c
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj: CMakeFiles/flashLED.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico_testing/Flashing_LED/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj -MF CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj.d -o CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj -c /home/cheslea/pico/pico-sdk/lib/tinyusb/src/tusb.c
 
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/tusb.c.i: cmake_force
@@ -985,7 +985,7 @@ CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/tusb.c.s: cma
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: CMakeFiles/flashLED.dir/flags.make
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: /home/cheslea/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: CMakeFiles/flashLED.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico_testing/Flashing_LED/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj -MF CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj.d -o CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj -c /home/cheslea/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
 
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i: cmake_force
@@ -999,7 +999,7 @@ CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/common/tusb_f
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: CMakeFiles/flashLED.dir/flags.make
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: /home/cheslea/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: CMakeFiles/flashLED.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico_testing/Flashing_LED/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj -MF CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj.d -o CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj -c /home/cheslea/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
 
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i: cmake_force
@@ -1013,7 +1013,7 @@ CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_fix/rp204
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: CMakeFiles/flashLED.dir/flags.make
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: /home/cheslea/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: CMakeFiles/flashLED.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico_testing/Flashing_LED/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj -MF CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj.d -o CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj -c /home/cheslea/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
 
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i: cmake_force
@@ -1027,7 +1027,7 @@ CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_unique_id
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: CMakeFiles/flashLED.dir/flags.make
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: /home/cheslea/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: CMakeFiles/flashLED.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cheslea/pico_testing/Flashing_LED/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj -MF CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj.d -o CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj -c /home/cheslea/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c
 
 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i: cmake_force
@@ -1187,13 +1187,13 @@ flashLED.elf: CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/
 flashLED.elf: CMakeFiles/flashLED.dir/build.make
 flashLED.elf: pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
 flashLED.elf: CMakeFiles/flashLED.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/cheslea/pico/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Linking CXX executable flashLED.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/cheslea/pico_testing/Flashing_LED/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Linking CXX executable flashLED.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/flashLED.dir/link.txt --verbose=$(VERBOSE)
-	/usr/bin/arm-none-eabi-objcopy -Oihex /home/cheslea/pico/test/build/flashLED.elf flashLED.hex
-	/usr/bin/arm-none-eabi-objcopy -Obinary /home/cheslea/pico/test/build/flashLED.elf flashLED.bin
-	/usr/bin/arm-none-eabi-objdump -h /home/cheslea/pico/test/build/flashLED.elf >flashLED.dis
-	/usr/bin/arm-none-eabi-objdump -d /home/cheslea/pico/test/build/flashLED.elf >>flashLED.dis
-	elf2uf2/elf2uf2 /home/cheslea/pico/test/build/flashLED.elf flashLED.uf2
+	/usr/bin/arm-none-eabi-objcopy -Oihex /home/cheslea/pico_testing/Flashing_LED/build/flashLED.elf flashLED.hex
+	/usr/bin/arm-none-eabi-objcopy -Obinary /home/cheslea/pico_testing/Flashing_LED/build/flashLED.elf flashLED.bin
+	/usr/bin/arm-none-eabi-objdump -h /home/cheslea/pico_testing/Flashing_LED/build/flashLED.elf >flashLED.dis
+	/usr/bin/arm-none-eabi-objdump -d /home/cheslea/pico_testing/Flashing_LED/build/flashLED.elf >>flashLED.dis
+	elf2uf2/elf2uf2 /home/cheslea/pico_testing/Flashing_LED/build/flashLED.elf flashLED.uf2
 
 # Rule to build all files generated by this target.
 CMakeFiles/flashLED.dir/build: flashLED.elf
@@ -1204,6 +1204,6 @@ CMakeFiles/flashLED.dir/clean:
 .PHONY : CMakeFiles/flashLED.dir/clean
 
 CMakeFiles/flashLED.dir/depend:
-	cd /home/cheslea/pico/test/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cheslea/pico/test /home/cheslea/pico/test /home/cheslea/pico/test/build /home/cheslea/pico/test/build /home/cheslea/pico/test/build/CMakeFiles/flashLED.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/cheslea/pico_testing/Flashing_LED/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cheslea/pico_testing/Flashing_LED /home/cheslea/pico_testing/Flashing_LED /home/cheslea/pico_testing/Flashing_LED/build /home/cheslea/pico_testing/Flashing_LED/build /home/cheslea/pico_testing/Flashing_LED/build/CMakeFiles/flashLED.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/flashLED.dir/depend
 

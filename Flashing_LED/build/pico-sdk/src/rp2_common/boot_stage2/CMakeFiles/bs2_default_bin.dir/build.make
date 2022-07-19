@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cheslea/pico/test
+CMAKE_SOURCE_DIR = /home/cheslea/pico_testing/Flashing_LED
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cheslea/pico/test/build
+CMAKE_BINARY_DIR = /home/cheslea/pico_testing/Flashing_LED/build
 
 # Utility rule file for bs2_default_bin.
 
@@ -69,8 +69,8 @@ include pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/progr
 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin: pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
 
 pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin: pico-sdk/src/rp2_common/boot_stage2/bs2_default.elf
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cheslea/pico/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating bs2_default.bin"
-	cd /home/cheslea/pico/test/build/pico-sdk/src/rp2_common/boot_stage2 && /usr/bin/arm-none-eabi-objcopy -Obinary /home/cheslea/pico/test/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.elf /home/cheslea/pico/test/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cheslea/pico_testing/Flashing_LED/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating bs2_default.bin"
+	cd /home/cheslea/pico_testing/Flashing_LED/build/pico-sdk/src/rp2_common/boot_stage2 && /usr/bin/arm-none-eabi-objcopy -Obinary /home/cheslea/pico_testing/Flashing_LED/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.elf /home/cheslea/pico_testing/Flashing_LED/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
 
 bs2_default_bin: pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin
 bs2_default_bin: pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
@@ -82,10 +82,10 @@ pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/build: bs2_de
 .PHONY : pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/build
 
 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/clean:
-	cd /home/cheslea/pico/test/build/pico-sdk/src/rp2_common/boot_stage2 && $(CMAKE_COMMAND) -P CMakeFiles/bs2_default_bin.dir/cmake_clean.cmake
+	cd /home/cheslea/pico_testing/Flashing_LED/build/pico-sdk/src/rp2_common/boot_stage2 && $(CMAKE_COMMAND) -P CMakeFiles/bs2_default_bin.dir/cmake_clean.cmake
 .PHONY : pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/clean
 
 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/depend:
-	cd /home/cheslea/pico/test/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cheslea/pico/test /home/cheslea/pico/pico-sdk/src/rp2_common/boot_stage2 /home/cheslea/pico/test/build /home/cheslea/pico/test/build/pico-sdk/src/rp2_common/boot_stage2 /home/cheslea/pico/test/build/pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/cheslea/pico_testing/Flashing_LED/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cheslea/pico_testing/Flashing_LED /home/cheslea/pico/pico-sdk/src/rp2_common/boot_stage2 /home/cheslea/pico_testing/Flashing_LED/build /home/cheslea/pico_testing/Flashing_LED/build/pico-sdk/src/rp2_common/boot_stage2 /home/cheslea/pico_testing/Flashing_LED/build/pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/depend
 

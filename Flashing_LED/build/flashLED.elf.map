@@ -1499,9 +1499,9 @@ Discarded input sections
                 0x0000000000000000       0x80 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
  .time_critical.flash_range_program
                 0x0000000000000000       0x80 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
- .text          0x0000000000000000        0x0 /tmp/ccbyJdPC.o
- .data          0x0000000000000000        0x0 /tmp/ccbyJdPC.o
- .bss           0x0000000000000000        0x0 /tmp/ccbyJdPC.o
+ .text          0x0000000000000000        0x0 /tmp/cc92fdc6.o
+ .data          0x0000000000000000        0x0 /tmp/cc92fdc6.o
+ .bss           0x0000000000000000        0x0 /tmp/cc92fdc6.o
  .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .text          0x0000000000000000       0x10 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-atexit.o)
@@ -1765,11 +1765,11 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
 .boot2          0x0000000010000000      0x100
                 0x0000000010000000                __boot2_start__ = .
  *(.boot2)
- .boot2         0x0000000010000000      0x100 /tmp/ccbyJdPC.o
+ .boot2         0x0000000010000000      0x100 /tmp/cc92fdc6.o
                 0x0000000010000100                __boot2_end__ = .
                 0x0000000000000001                ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
-.text           0x0000000010000100     0x1db0
+.text           0x0000000010000100     0x1da0
                 0x0000000010000100                __logical_binary_start = .
  *(.vectors)
  .vectors       0x0000000010000100       0xd4 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
@@ -1832,198 +1832,198 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
  *(EXCLUDE_FILE(*libm.a: *libc.a:*lib_a-mem*.o *libgcc.a:) .text*)
  .text          0x00000000100002c4       0x98 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
  .text.startup.main
-                0x000000001000035c       0x34 CMakeFiles/flashLED.dir/main.c.obj
+                0x000000001000035c       0x24 CMakeFiles/flashLED.dir/main.c.obj
                 0x000000001000035c                main
  .text.gpio_init
-                0x0000000010000390       0x3c CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x0000000010000390                gpio_init
+                0x0000000010000380       0x3c CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x0000000010000380                gpio_init
  .text.hw_claim_or_assert
-                0x00000000100003cc       0x44 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-                0x00000000100003cc                hw_claim_or_assert
+                0x00000000100003bc       0x44 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x00000000100003bc                hw_claim_or_assert
  .text.running_on_fpga
-                0x0000000010000410       0x10 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
-                0x0000000010000410                running_on_fpga
+                0x0000000010000400       0x10 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+                0x0000000010000400                running_on_fpga
  .text.spin_locks_reset
-                0x0000000010000420       0x1c CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x0000000010000420                spin_locks_reset
+                0x0000000010000410       0x1c CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x0000000010000410                spin_locks_reset
  .text.next_striped_spin_lock_num
-                0x000000001000043c       0x18 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x000000001000043c                next_striped_spin_lock_num
+                0x000000001000042c       0x18 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x000000001000042c                next_striped_spin_lock_num
  .text.irq_set_enabled
-                0x0000000010000454       0x24 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000010000454                irq_set_enabled
+                0x0000000010000444       0x24 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010000444                irq_set_enabled
  .text.irq_get_vtable_handler
-                0x0000000010000478       0x10 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000010000478                irq_get_vtable_handler
+                0x0000000010000468       0x10 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010000468                irq_get_vtable_handler
  .text.irq_set_exclusive_handler
-                0x0000000010000488       0x54 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000010000488                irq_set_exclusive_handler
+                0x0000000010000478       0x54 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010000478                irq_set_exclusive_handler
  .text.irq_remove_handler
-                0x00000000100004dc      0x1b4 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x00000000100004dc                irq_remove_handler
+                0x00000000100004cc      0x1b4 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x00000000100004cc                irq_remove_handler
  .text.irq_add_tail_to_free_list
-                0x0000000010000690       0xb4 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000010000690                irq_add_tail_to_free_list
+                0x0000000010000680       0xb4 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010000680                irq_add_tail_to_free_list
  .text.irq_init_priorities
-                0x0000000010000744       0x24 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000010000744                irq_init_priorities
+                0x0000000010000734       0x24 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010000734                irq_init_priorities
  .text.lock_init
-                0x0000000010000768       0x10 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
-                0x0000000010000768                lock_init
+                0x0000000010000758       0x10 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+                0x0000000010000758                lock_init
  .text.timer_pool_entry_comparator
-                0x0000000010000778       0x34 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x0000000010000778                timer_pool_entry_comparator
+                0x0000000010000768       0x34 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010000768                timer_pool_entry_comparator
  .text.sleep_until_callback
-                0x00000000100007ac       0x30 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x000000001000079c       0x30 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.add_alarm_under_lock.isra.0
-                0x00000000100007dc      0x100 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x00000000100007cc      0x100 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_alarm_callback
-                0x00000000100008dc      0x1c8 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x00000000100008cc      0x1c8 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_add_alarm_at.constprop.0
-                0x0000000010000aa4      0x11c CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010000a94      0x11c CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_init_default
-                0x0000000010000bc0       0x64 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x0000000010000bc0                alarm_pool_init_default
+                0x0000000010000bb0       0x64 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010000bb0                alarm_pool_init_default
  .text.sleep_until
-                0x0000000010000c24       0xac CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x0000000010000c24                sleep_until
+                0x0000000010000c14       0xac CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010000c14                sleep_until
  .text.sleep_ms
-                0x0000000010000cd0       0x38 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x0000000010000cd0                sleep_ms
+                0x0000000010000cc0       0x38 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010000cc0                sleep_ms
  .text.hardware_alarm_irq_handler
-                0x0000000010000d08       0xb8 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000010000cf8       0xb8 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .text.hardware_alarm_claim
-                0x0000000010000dc0       0x18 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x0000000010000dc0                hardware_alarm_claim
+                0x0000000010000db0       0x18 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000010000db0                hardware_alarm_claim
  .text.time_us_64
-                0x0000000010000dd8       0x14 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x0000000010000dd8                time_us_64
+                0x0000000010000dc8       0x14 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000010000dc8                time_us_64
  .text.busy_wait_until
-                0x0000000010000dec       0x20 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x0000000010000dec                busy_wait_until
+                0x0000000010000ddc       0x20 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000010000ddc                busy_wait_until
  .text.hardware_alarm_set_callback
-                0x0000000010000e0c       0x8c CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x0000000010000e0c                hardware_alarm_set_callback
+                0x0000000010000dfc       0x8c CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000010000dfc                hardware_alarm_set_callback
  .text.hardware_alarm_set_target
-                0x0000000010000e98       0xe0 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x0000000010000e98                hardware_alarm_set_target
+                0x0000000010000e88       0xe0 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000010000e88                hardware_alarm_set_target
  .text.hardware_alarm_cancel
-                0x0000000010000f78       0x3c CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x0000000010000f78                hardware_alarm_cancel
+                0x0000000010000f68       0x3c CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000010000f68                hardware_alarm_cancel
  .text.ph_merge_nodes
-                0x0000000010000fb4       0x68 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x0000000010000fa4       0x68 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .text.ph_post_alloc_init
-                0x000000001000101c       0x3c CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x000000001000101c                ph_post_alloc_init
+                0x000000001000100c       0x3c CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x000000001000100c                ph_post_alloc_init
  .text.ph_merge_two_pass
-                0x0000000010001058       0x90 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x0000000010001058                ph_merge_two_pass
+                0x0000000010001048       0x90 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x0000000010001048                ph_merge_two_pass
  .text.ph_remove_any_head
-                0x00000000100010e8       0xf8 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x00000000100010d8       0xf8 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .text.ph_remove_head
-                0x00000000100011e0       0xfc CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x00000000100011e0                ph_remove_head
+                0x00000000100011d0       0xfc CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x00000000100011d0                ph_remove_head
  .text.ph_remove_and_free_node
-                0x00000000100012dc       0x7c CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x00000000100012dc                ph_remove_and_free_node
+                0x00000000100012cc       0x7c CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x00000000100012cc                ph_remove_and_free_node
  .text.mutex_init
-                0x0000000010001358       0x1c CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x0000000010001358                mutex_init
+                0x0000000010001348       0x1c CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x0000000010001348                mutex_init
  .text.recursive_mutex_init
-                0x0000000010001374       0x1c CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x0000000010001374                recursive_mutex_init
+                0x0000000010001364       0x1c CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x0000000010001364                recursive_mutex_init
  .text.runtime_init
-                0x0000000010001390       0xf0 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x0000000010001390                runtime_init
- .text.exit     0x0000000010001480        0x4 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x0000000010001480                exit
- .text.panic    0x0000000010001484       0x30 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x0000000010001484                panic
+                0x0000000010001380       0xf0 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x0000000010001380                runtime_init
+ .text.exit     0x0000000010001470        0x4 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x0000000010001470                exit
+ .text.panic    0x0000000010001474       0x30 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x0000000010001474                panic
  .text.hard_assertion_failure
-                0x00000000100014b4        0xc CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x00000000100014b4                hard_assertion_failure
+                0x00000000100014a4        0xc CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x00000000100014a4                hard_assertion_failure
  .text.clocks_init
-                0x00000000100014c0      0x2bc CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x00000000100014c0                clocks_init
+                0x00000000100014b0      0x2bc CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x00000000100014b0                clocks_init
  .text.pll_init
-                0x000000001000177c       0xb0 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
-                0x000000001000177c                pll_init
+                0x000000001000176c       0xb0 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+                0x000000001000176c                pll_init
  .text.watchdog_start_tick
-                0x000000001000182c       0x10 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-                0x000000001000182c                watchdog_start_tick
+                0x000000001000181c       0x10 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+                0x000000001000181c                watchdog_start_tick
  .text.xosc_init
-                0x000000001000183c       0x28 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
-                0x000000001000183c                xosc_init
+                0x000000001000182c       0x28 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+                0x000000001000182c                xosc_init
  .text._out_char
-                0x0000000010001864       0x10 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000010001854       0x10 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text.weak_raw_vprintf
-                0x0000000010001874       0x30 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-                0x0000000010001874                weak_raw_vprintf
- .text          0x00000000100018a4       0x10 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+                0x0000000010001864       0x30 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000010001864                weak_raw_vprintf
+ .text          0x0000000010001894       0x10 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
  .text.rom_func_lookup
-                0x00000000100018b4       0x10 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x00000000100018b4                rom_func_lookup
+                0x00000000100018a4       0x10 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x00000000100018a4                rom_func_lookup
  .text.rom_data_lookup
-                0x00000000100018c4       0x10 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x00000000100018c4                rom_data_lookup
+                0x00000000100018b4       0x10 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x00000000100018b4                rom_data_lookup
  .text.rom_funcs_lookup
-                0x00000000100018d4       0x44 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x00000000100018d4                rom_funcs_lookup
+                0x00000000100018c4       0x44 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x00000000100018c4                rom_funcs_lookup
  .text.__wrap___aeabi_uidiv
-                0x0000000010001918       0x4c CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x0000000010001918                __wrap___aeabi_uidiv
-                0x0000000010001918                __wrap___aeabi_uidivmod
-                0x0000000010001918                div_u32u32
-                0x0000000010001918                divmod_u32u32
-                0x0000000010001920                divmod_u32u32_unsafe
-                0x0000000010001948                divmod_u32u32_savestate
+                0x0000000010001908       0x4c CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x0000000010001908                __wrap___aeabi_uidiv
+                0x0000000010001908                __wrap___aeabi_uidivmod
+                0x0000000010001908                div_u32u32
+                0x0000000010001908                divmod_u32u32
+                0x0000000010001910                divmod_u32u32_unsafe
+                0x0000000010001938                divmod_u32u32_savestate
  .text.__aeabi_double_init
-                0x0000000010001964       0x94 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
-                0x0000000010001964                __aeabi_double_init
+                0x0000000010001954       0x94 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x0000000010001954                __aeabi_double_init
  .text.double_table_shim_on_use_helper
-                0x00000000100019f8       0x2c CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x00000000100019f8                double_table_shim_on_use_helper
+                0x00000000100019e8       0x2c CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x00000000100019e8                double_table_shim_on_use_helper
  .text.__aeabi_lmul
-                0x0000000010001a24       0x32 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
-                0x0000000010001a24                __wrap___aeabi_lmul
- *fill*         0x0000000010001a56        0x2 
+                0x0000000010001a14       0x32 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+                0x0000000010001a14                __wrap___aeabi_lmul
+ *fill*         0x0000000010001a46        0x2 
  .text.__aeabi_float_init
-                0x0000000010001a58       0x64 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
-                0x0000000010001a58                __aeabi_float_init
+                0x0000000010001a48       0x64 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x0000000010001a48                __aeabi_float_init
  .text.float_table_shim_on_use_helper
-                0x0000000010001abc       0x2c CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
-                0x0000000010001abc                float_table_shim_on_use_helper
- .text          0x0000000010001ae8       0x10 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x0000000010001ae8                __aeabi_mem_init
- .text.memset   0x0000000010001af8        0xc CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x0000000010001af8                __wrap_memset
- .text.memcpy   0x0000000010001b04        0xc CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x0000000010001b04                __wrap___aeabi_memcpy
-                0x0000000010001b04                __wrap_memcpy
+                0x0000000010001aac       0x2c CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+                0x0000000010001aac                float_table_shim_on_use_helper
+ .text          0x0000000010001ad8       0x10 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x0000000010001ad8                __aeabi_mem_init
+ .text.memset   0x0000000010001ae8        0xc CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x0000000010001ae8                __wrap_memset
+ .text.memcpy   0x0000000010001af4        0xc CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x0000000010001af4                __wrap___aeabi_memcpy
+                0x0000000010001af4                __wrap_memcpy
  .text.stdio_out_chars_no_crlf
-                0x0000000010001b10       0x10 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010001b00       0x10 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_out_chars_crlf
-                0x0000000010001b20       0xb4 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010001b10       0xb4 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_put_string.isra.0
-                0x0000000010001bd4       0xfc CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010001bc4       0xfc CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.__wrap_putchar
-                0x0000000010001cd0       0xa0 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x0000000010001cd0                __wrap_putchar
+                0x0000000010001cc0       0xa0 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010001cc0                __wrap_putchar
  .text.__wrap_puts
-                0x0000000010001d70       0x3c CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x0000000010001d70                __wrap_puts
+                0x0000000010001d60       0x3c CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010001d60                __wrap_puts
  .text.startup._retrieve_unique_id_on_boot
-                0x0000000010001dac       0x10 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+                0x0000000010001d9c       0x10 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
  .text.flash_get_unique_id
-                0x0000000010001dbc       0x40 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
-                0x0000000010001dbc                flash_get_unique_id
- .text          0x0000000010001dfc       0x5c /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-strlen-stub.o)
-                0x0000000010001dfc                strlen
+                0x0000000010001dac       0x40 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+                0x0000000010001dac                flash_get_unique_id
+ .text          0x0000000010001dec       0x5c /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-strlen-stub.o)
+                0x0000000010001dec                strlen
  *(.fini)
- .fini          0x0000000010001e58        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crti.o
-                0x0000000010001e58                _fini
- *fill*         0x0000000010001e5c        0x4 
- .fini.__stub   0x0000000010001e60       0x50 linker stubs
+ .fini          0x0000000010001e48        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crti.o
+                0x0000000010001e48                _fini
+ *fill*         0x0000000010001e4c        0x4 
+ .fini.__stub   0x0000000010001e50       0x50 linker stubs
  *crtbegin.o(.ctors)
  *crtbegin?.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
@@ -2035,82 +2035,82 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
  *(SORT_BY_NAME(.dtors.*))
  *(.dtors)
  *(.eh_frame*)
- .eh_frame      0x0000000010001eb0        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
-                0x0000000010001eb0                . = ALIGN (0x4)
+ .eh_frame      0x0000000010001ea0        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+                0x0000000010001ea0                . = ALIGN (0x4)
 
-.glue_7         0x0000000010001eb0        0x0
- .glue_7        0x0000000010001eb0        0x0 linker stubs
+.glue_7         0x0000000010001ea0        0x0
+ .glue_7        0x0000000010001ea0        0x0 linker stubs
 
-.glue_7t        0x0000000010001eb0        0x0
- .glue_7t       0x0000000010001eb0        0x0 linker stubs
+.glue_7t        0x0000000010001ea0        0x0
+ .glue_7t       0x0000000010001ea0        0x0 linker stubs
 
-.vfp11_veneer   0x0000000010001eb0        0x0
- .vfp11_veneer  0x0000000010001eb0        0x0 linker stubs
+.vfp11_veneer   0x0000000010001ea0        0x0
+ .vfp11_veneer  0x0000000010001ea0        0x0 linker stubs
 
-.v4_bx          0x0000000010001eb0        0x0
- .v4_bx         0x0000000010001eb0        0x0 linker stubs
+.v4_bx          0x0000000010001ea0        0x0
+ .v4_bx         0x0000000010001ea0        0x0 linker stubs
 
-.iplt           0x0000000010001eb0        0x0
- .iplt          0x0000000010001eb0        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+.iplt           0x0000000010001ea0        0x0
+ .iplt          0x0000000010001ea0        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
 
-.rodata         0x0000000010001eb0       0xac
+.rodata         0x0000000010001ea0       0xac
  *(EXCLUDE_FILE(*libm.a: *libc.a:*lib_a-mem*.o *libgcc.a:) .rodata*)
  .rodata.hardware_alarm_claim.str1.4
-                0x0000000010001eb0       0x22 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- *fill*         0x0000000010001ed2        0x2 
+                0x0000000010001ea0       0x22 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ *fill*         0x0000000010001ec2        0x2 
  .rodata.panic.str1.4
-                0x0000000010001ed4       0x12 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- *fill*         0x0000000010001ee6        0x2 
+                0x0000000010001ec4       0x12 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ *fill*         0x0000000010001ed6        0x2 
  .rodata.hard_assertion_failure.str1.4
-                0x0000000010001ee8        0xc CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x0000000010001ed8        0xc CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
  .rodata.str1.4
-                0x0000000010001ef4       0x40 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010001ee4       0x40 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_44
-                0x0000000010001f34        0xc CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010001f24        0xc CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_75
-                0x0000000010001f40        0xc CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010001f30        0xc CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_81
-                0x0000000010001f4c        0xc CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010001f3c        0xc CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.crlf_str.0
-                0x0000000010001f58        0x2 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x0000000010001f5c                . = ALIGN (0x4)
- *fill*         0x0000000010001f5a        0x2 
+                0x0000000010001f48        0x2 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010001f4c                . = ALIGN (0x4)
+ *fill*         0x0000000010001f4a        0x2 
  *(SORT_BY_ALIGNMENT(SORT_BY_NAME(.flashdata*)))
-                0x0000000010001f5c                . = ALIGN (0x4)
+                0x0000000010001f4c                . = ALIGN (0x4)
 
-.rel.dyn        0x0000000010001f5c        0x0
- .rel.iplt      0x0000000010001f5c        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+.rel.dyn        0x0000000010001f4c        0x0
+ .rel.iplt      0x0000000010001f4c        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x0000000010001f5c                __exidx_start = .
+                0x0000000010001f4c                __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x0000000010001f5c                __exidx_end = .
-                0x0000000010001f5c                . = ALIGN (0x4)
-                0x0000000010001f5c                __binary_info_start = .
+                0x0000000010001f4c                __exidx_end = .
+                0x0000000010001f4c                . = ALIGN (0x4)
+                0x0000000010001f4c                __binary_info_start = .
 
-.binary_info    0x0000000010001f5c       0x1c
+.binary_info    0x0000000010001f4c       0x1c
  *(.binary_info.keep.*)
  .binary_info.keep.__bi_ptr22
-                0x0000000010001f5c        0x4 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010001f4c        0x4 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr30
-                0x0000000010001f60        0x4 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010001f50        0x4 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr38
-                0x0000000010001f64        0x4 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010001f54        0x4 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr44
-                0x0000000010001f68        0x4 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010001f58        0x4 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr50
-                0x0000000010001f6c        0x4 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010001f5c        0x4 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr75
-                0x0000000010001f70        0x4 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010001f60        0x4 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr81
-                0x0000000010001f74        0x4 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010001f64        0x4 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  *(.binary_info.*)
-                0x0000000010001f78                __binary_info_end = .
-                0x0000000010001f78                . = ALIGN (0x4)
-                0x0000000010001f78                __etext = .
+                0x0000000010001f68                __binary_info_end = .
+                0x0000000010001f68                . = ALIGN (0x4)
+                0x0000000010001f68                __etext = .
 
 .ram_vector_table
                 0x0000000020000000       0xc0
@@ -2119,7 +2119,7 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
                 0x0000000020000000       0xc0 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
                 0x0000000020000000                ram_vector_table
 
-.data           0x00000000200000c0      0x2b0 load address 0x0000000010001f78
+.data           0x00000000200000c0      0x2b0 load address 0x0000000010001f68
                 0x00000000200000c0                __data_start__ = .
  *(vtable)
  *(.time_critical*)
@@ -2207,33 +2207,33 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
                 0x0000000020000370                __data_end__ = .
 
 .tm_clone_table
-                0x0000000020000370        0x0 load address 0x0000000010002228
+                0x0000000020000370        0x0 load address 0x0000000010002218
  .tm_clone_table
                 0x0000000020000370        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
  .tm_clone_table
                 0x0000000020000370        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtend.o
 
-.igot.plt       0x0000000020000370        0x0 load address 0x0000000010002228
+.igot.plt       0x0000000020000370        0x0 load address 0x0000000010002218
  .igot.plt      0x0000000020000370        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
 
 .uninitialized_data
-                0x0000000020000370        0x0 load address 0x0000000010002228
+                0x0000000020000370        0x0 load address 0x0000000010002218
                 0x0000000020000370                . = ALIGN (0x4)
  *(.uninitialized_data*)
 
-.scratch_x      0x0000000020040000        0x0 load address 0x0000000010002228
+.scratch_x      0x0000000020040000        0x0 load address 0x0000000010002218
                 0x0000000020040000                __scratch_x_start__ = .
  *(.scratch_x.*)
                 0x0000000020040000                . = ALIGN (0x4)
                 0x0000000020040000                __scratch_x_end__ = .
-                0x0000000010002228                __scratch_x_source__ = LOADADDR (.scratch_x)
+                0x0000000010002218                __scratch_x_source__ = LOADADDR (.scratch_x)
 
-.scratch_y      0x0000000020041000        0x0 load address 0x0000000010002228
+.scratch_y      0x0000000020041000        0x0 load address 0x0000000010002218
                 0x0000000020041000                __scratch_y_start__ = .
  *(.scratch_y.*)
                 0x0000000020041000                . = ALIGN (0x4)
                 0x0000000020041000                __scratch_y_end__ = .
-                0x0000000010002228                __scratch_y_source__ = LOADADDR (.scratch_y)
+                0x0000000010002218                __scratch_y_source__ = LOADADDR (.scratch_y)
 
 .bss            0x0000000020000370      0x4d4
                 0x0000000020000370                . = ALIGN (0x4)
@@ -2295,8 +2295,8 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
  *(.stack*)
  .stack         0x0000000020041000      0x800 CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 
-.flash_end      0x0000000010002228        0x0
-                0x0000000010002228                __flash_binary_end = .
+.flash_end      0x0000000010002218        0x0
+                0x0000000010002218                __flash_binary_end = .
                 0x0000000020040000                __StackLimit = (ORIGIN (RAM) + LENGTH (RAM))
                 0x0000000020041000                __StackOneTop = (ORIGIN (SCRATCH_X) + LENGTH (SCRATCH_X))
                 0x0000000020042000                __StackTop = (ORIGIN (SCRATCH_Y) + LENGTH (SCRATCH_Y))
@@ -2375,7 +2375,7 @@ LOAD CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/lib/tinyusb/src/common/t
 LOAD CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
 LOAD CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
 LOAD CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
-LOAD /tmp/ccbyJdPC.o
+LOAD /tmp/cc92fdc6.o
 LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++.a
 LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libm.a
 START GROUP
@@ -2467,7 +2467,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x0000000000000598       0x2c CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
  .ARM.attributes
-                0x00000000000005c4       0x22 /tmp/ccbyJdPC.o
+                0x00000000000005c4       0x22 /tmp/cc92fdc6.o
  .ARM.attributes
                 0x00000000000005e6       0x1e /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .ARM.attributes

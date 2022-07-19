@@ -18,9 +18,9 @@ CMakeFiles/flashLED.dir/home/cheslea/pico/pico-sdk/src/rp2_common/pico_float/flo
  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
  /usr/include/newlib/assert.h \
  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
- /home/cheslea/pico/test/build/generated/pico_base/pico/version.h \
+ /home/cheslea/pico_testing/Flashing_LED/build/generated/pico_base/pico/version.h \
  /home/cheslea/pico/pico-sdk/src/common/pico_base/include/pico/config.h \
- /home/cheslea/pico/test/build/generated/pico_base/pico/config_autogen.h \
+ /home/cheslea/pico_testing/Flashing_LED/build/generated/pico_base/pico/config_autogen.h \
  /home/cheslea/pico/pico-sdk/src/boards/include/boards/pico.h \
  /home/cheslea/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  /home/cheslea/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
