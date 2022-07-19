@@ -8,7 +8,7 @@
 #define MAX_BRIGHTNESS 255
 #define MIN_BRIGHTNESS 0
 
-/* ISR function for PWM wrapping */
+/* ISR for PWM wrapping */
 void wrap_isr() {
     static int brightness = MIN_BRIGHTNESS;  //Use counter to track brightness level
     static bool inc = true;     //Track increasing (inc) or descreasing brightness 
@@ -20,14 +20,14 @@ void wrap_isr() {
         brightness++;
         
         if (brightness > MAX_BRIGHTNESS) {
-            brightness = MAX_BRIGHTNESS;    //Do not allow value to exceed max
+            brightness = MAX_BRIGHTNESS;    
             inc = false;    //Set to decrease in brightness
         }
     } else {
         brightness--;
 
         if (brightness < MIN_BRIGHTNESS) {
-            brightness = MIN_BRIGHTNESS; //Do not allow value to fall below min
+            brightness = MIN_BRIGHTNESS; 
             inc = true; //Set to increase in brightness
         }
     }
